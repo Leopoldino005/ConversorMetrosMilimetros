@@ -8,7 +8,8 @@ namespace Conversor.uteis
 {
     public class MetrosMilimetros
     {
-        public double Conversor(double metros)
+        //Independente da instância 
+        public static double Conversor(double metros) //Com escopo de classe
         {
             return metros * 1000;
         }
